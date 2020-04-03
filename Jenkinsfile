@@ -20,8 +20,8 @@ pipeline {
 
     stage('Building Docker Image') {
       steps {
-          // sh 'docker image rm udacity/app:0.1'
-          // sh 'docker build -t udacity/app:0.1 .'
+          // sh 'docker image rm same7abdel3aziz/udacity:0.1'
+          // sh 'docker build -t same7abdel3aziz/udacity:0.1 .'
           // sh '$ docker system prune --all'
           
           script {
