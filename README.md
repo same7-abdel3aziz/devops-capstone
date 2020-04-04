@@ -1,3 +1,6 @@
+Guthub repo:
+https://github.com/same7-abdel3aziz/devops-capstone
+
 # Outline
  1. Create an Nginx “Hello World” static website application. 
 
@@ -9,3 +12,5 @@
 
  5. serve our website on AWS kubenetes with rolling deployment with deploy to cluster.sh
  
+ 
+
