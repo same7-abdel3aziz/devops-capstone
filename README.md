@@ -1,5 +1,6 @@
 ## Improvements based on your Feedbacks:
 
+
 1. The project takes a Dockerfile and creates a Docker container in the pipeline.
 -Refer to the image Build Docker Image in Pipeline.jpg and Push Docker Image in Pipeline.jpg
 By running the ./kubernetes/deployment.yaml with the command "kubectl apply -f kubernetes/deployment.yaml" - added in "deploy to cluster.sh" file the container was created.
