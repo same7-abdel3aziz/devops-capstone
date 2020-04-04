@@ -46,13 +46,6 @@ pipeline {
         sh "docker rmi $registry:$tag"
       }
     }
-
-    stage('Deploy kubenetes'){
-	    steps{
-        sh "kubectl apply -f ./kubernetes"
-	    }
-    } 
-
   }
 
 }
